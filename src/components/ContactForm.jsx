@@ -40,6 +40,9 @@ const ContactForm = () => {
   return (
     <section className="py-20" id="contact">
       <div className="align-component grid md:grid-cols-2 items-center gap-16">
+        <article className="hidden md:block">
+          <img src={ContactUs} className="w-full h-64" />
+        </article>
         <article className=" bg-white px-8 py-10">
           <SectionTitle text="Contact" />
           <form className=" w-full mt-8 " onSubmit={sendEmail}>
@@ -96,9 +99,6 @@ const ContactForm = () => {
             />
             {stateMessage && <p>{stateMessage}</p>}
           </form>
-        </article>
-        <article className="hidden md:block">
-          <img src={ContactUs} className="w-full h-64" />
         </article>
       </div>
     </section>
