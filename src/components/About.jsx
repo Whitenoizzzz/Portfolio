@@ -8,7 +8,7 @@ const About = () => {
         <article>
           <SectionTitle text="code and tea" />
           <p className="text-slate-600 mt-8 leading-loose md:pr-4">
-            Guten Tag! 👋 I'm , a student and aspiring software developer
+            Guten Tag! 👋 I'm a student and aspiring software developer
             currently based in Germany, with roots tracing back to the colorful
             landscapes of India. Embracing the fusion of cultures, I find
             inspiration in the rich flavors of chai, the rhythmic beats of
