@@ -9,7 +9,7 @@ const Navbar = () => {
   }
   return (
     <nav className="bg-emerald-100 sticky top-0">
-      <div className="align-component flex justify-between py-4">
+      <div className="align-component flex justify-between py-2">
         <div className="py-4 flex gap-16 items-center">
           <h2 className="text-3xl font-bold">
             About<span className=" text-emerald-600">Me</span>
@@ -37,8 +37,8 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`fixed z-40 w-full  bg-emerald-100 overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${
-          !toggleMenu ? 'h-0' : 'h-full'
+        className={`absolute z-40 w-full opacity-90 bg-emerald-100 overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${
+          !toggleMenu ? 'h-0' : ' h-screen'
         }`}
       >
         <div className="px-8">

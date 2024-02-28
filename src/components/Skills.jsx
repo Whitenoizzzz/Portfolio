@@ -4,7 +4,7 @@ import SkillsCard from './SkillsCard'
 
 const Skills = () => {
   return (
-    <section className="py-20 align-component" id="skills">
+    <section className="py-20 align-component z-0" id="skills">
       <SectionTitle text="tech stack"></SectionTitle>
       <div className="py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {skills.map((skill) => {
