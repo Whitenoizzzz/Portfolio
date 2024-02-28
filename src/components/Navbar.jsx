@@ -8,7 +8,7 @@ const Navbar = () => {
     setToggleMenu(!toggleMenu) // Close the menu when a link is clicked
   }
   return (
-    <nav className="bg-emerald-100">
+    <nav className="bg-emerald-100 sticky top-0">
       <div className="align-component flex justify-between py-4">
         <div className="py-4 flex gap-16 items-center">
           <h2 className="text-3xl font-bold">
