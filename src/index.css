@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply transition-colors duration-300;
+}
 @layer components {
   .align-component {
     @apply mx-auto max-w-7xl px-8;

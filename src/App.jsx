@@ -5,18 +5,22 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import ContactForm from './components/ContactForm'
+import { useGlobalContext } from './context'
 
 function App() {
+  const { isDarkTheme } = useGlobalContext()
   return (
-    <>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Skills></Skills>
-      <About></About>
-      <Projects></Projects>
-      <ContactForm></ContactForm>
-      <Footer></Footer>
-    </>
+    <div className={`${isDarkTheme && 'dark'}`}>
+      <div className=" dark:bg-neutral-800">
+        <Navbar></Navbar>
+        <Hero></Hero>
+        <Skills></Skills>
+        <About></About>
+        <Projects></Projects>
+        <ContactForm></ContactForm>
+        <Footer></Footer>
+      </div>
+    </div>
   )
 }
 

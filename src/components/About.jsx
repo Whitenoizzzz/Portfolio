@@ -1,13 +1,14 @@
 import aboutSvg from '../assets/about.svg'
+import Tea from '../assets/Tea.svg'
 import SectionTitle from './SectionTitle'
 const About = () => {
   return (
-    <section className="bg-white py-20" id="about">
+    <section className="bg-white py-20 dark:bg-neutral-800" id="about">
       <div className="align-component grid md:grid-cols-2 items-center gap-16">
-        <img src={aboutSvg} className="w-full h-64" />
+        <img src={Tea} className="w-full h-64" />
         <article>
           <SectionTitle text="code and tea" />
-          <p className="text-slate-600 mt-8 leading-loose md:pr-4">
+          <p className="text-slate-600 mt-8 leading-loose md:pr-4  dark:text-neutral-400">
             Guten Tag! 👋 I'm a student and aspiring software developer
             currently based in Germany, with roots tracing back to the colorful
             landscapes of India. Embracing the fusion of cultures, I find
