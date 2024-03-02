@@ -1,4 +1,5 @@
 import heroImg from '../assets/hero.svg'
+import DeveloperActivity from '../assets/DeveloperActivity.svg'
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
 
 const linkedinURL = 'https://www.linkedin.com/in/lovepreetsingh24/'
@@ -20,19 +21,19 @@ const Hero = () => {
           </p>
           <div className="flex gap-x-4 mt-4">
             <a href={githubURL} target="_blank">
-              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black dark:hover:text-emerald-600 duration-300" />
+              <FaGithubSquare className="h-8 w-8 text-slate-500 dark:text-emerald-600 hover:text-black duration-0 " />
             </a>
             <a href={linkedinURL} target="_blank">
-              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black dark:hover:text-emerald-600 duration-300" />
+              <FaLinkedin className="h-8 w-8 text-slate-500 dark:text-emerald-600 hover:text-black  duration-0 " />
             </a>
             <a href="#">
-              <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300 dark:hover:text-emerald-600" />
+              <FaTwitterSquare className="h-8 w-8 text-slate-500 dark:text-emerald-600 hover:text-black duration-0 " />
             </a>
           </div>
         </article>
 
         <article className="order-1 sm:order-2">
-          <img src={heroImg} className=" w-full h-80 lg:h-96 " />
+          <img src={DeveloperActivity} className=" w-full h-80 lg:h-96 " />
         </article>
       </div>
     </section>

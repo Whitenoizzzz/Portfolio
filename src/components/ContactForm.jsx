@@ -94,7 +94,7 @@ const ContactForm = () => {
             <input
               type="submit"
               value="Send"
-              className="w-full bg-emerald-100 rounded-lg py-1.5 px-3 cursor-pointer hover:bg-emerald-600  dark:bg-slate-500 dark:text-neutral-100"
+              className="w-full bg-emerald-100 rounded-lg py-1.5 px-3 cursor-pointer hover:bg-emerald-600  dark:bg-emerald-600 dark:text-neutral-100"
               disabled={isSubmitting}
             />
             {stateMessage && <p>{stateMessage}</p>}
