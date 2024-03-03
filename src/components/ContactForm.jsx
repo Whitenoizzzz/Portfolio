@@ -19,7 +19,7 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          setStateMessage('Message sent!')
+          setStateMessage('Thankyou for your message!')
           setIsSubmitting(false)
           setTimeout(() => {
             setStateMessage(null)
@@ -97,7 +97,9 @@ const ContactForm = () => {
               className="w-full bg-emerald-100 rounded-lg py-1.5 px-3 cursor-pointer hover:bg-emerald-600  dark:bg-emerald-600 dark:text-neutral-100"
               disabled={isSubmitting}
             />
-            {stateMessage && <p>{stateMessage}</p>}
+            {stateMessage && (
+              <p className="dark:text-neutral-400">{stateMessage}</p>
+            )}
           </form>
         </article>
       </div>
