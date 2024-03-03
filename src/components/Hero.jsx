@@ -10,6 +10,9 @@ const Hero = () => {
     <section className="bg-emerald-100 py-24  dark:bg-neutral-800 " id="home">
       <div className=" align-component grid sm:grid-cols-2 items-center gap-16">
         <article className="order-2 sm:order-1">
+          <h3 className=" text-emerald-600 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-wider">
+            -------Hello--
+          </h3>
           <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold tracking-wider  dark:text-neutral-200">
             I'm Lovepreet
           </h1>

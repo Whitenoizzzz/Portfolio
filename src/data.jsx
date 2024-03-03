@@ -1,5 +1,9 @@
 import { nanoid } from 'nanoid'
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
+import { FaHtml5, FaJs, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa'
+import { CgCPlusPlus } from 'react-icons/cg'
+import DrinkNest from './assets/DrinkNest.jpg'
+import UnsplashOasis from './assets/UnsplashOasis.jpg'
+import ECommerceImage from './assets/ECommerceImage.jpg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -28,31 +32,49 @@ export const skills = [
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
+  {
+    id: nanoid(),
+    title: 'NodeJs',
+    icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
+    text: 'Proficient in Node.js, with experience in building efficient server-side applications.',
+  },
+  {
+    id: nanoid(),
+    title: 'C & C++',
+    icon: <CgCPlusPlus className="h-16 w-16 text-emerald-500" />,
+    text: 'Proficient in C and C++ programming, with a focus on crafting efficient and reliable solutions for a variety of projects',
+  },
+  {
+    id: nanoid(),
+    title: 'Databases',
+    icon: <FaDatabase className="h-16 w-16 text-emerald-500" />,
+    text: 'Skilled in SQL and Non-SQL based databases such as MongoDB',
+  },
 ]
 
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: ECommerceImage,
+    url: 'https://e-commerceapi-2cg6.onrender.com/',
+    github: 'https://github.com/Whitenoizzzz/E-Commerce-API',
+    title: 'ECommerce API',
+    text: 'Developed a comprehensive E-commerce API backend utilizing Node.js, featuring authentication, product management, cart functionality, order processing, and customer reviews.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: UnsplashOasis,
+    url: 'https://unsplashoasis.netlify.app/',
+    github: 'https://github.com/Whitenoizzzz/Unspash-Oasis',
+    title: 'Unsplash Oasis',
+    text: 'Crafted a dynamic website leveraging React.js, React Query, and Context API to seamlessly integrate with the Unsplash API,to deliver free high-quality images with option to download',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: DrinkNest,
+    url: 'https://drinknest.netlify.app/',
+    github: 'https://github.com/Whitenoizzzz/MixMaster',
+    title: 'DrinkNest',
+    text: 'Developed an engaging beverage exploration platform using React, React Router, and React Query, allowing users to effortlessly search for drinks and discover their ingredients.',
   },
 ]
