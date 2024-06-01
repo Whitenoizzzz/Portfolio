@@ -32,13 +32,8 @@ The portfolio project serves as a platform to showcase the developer's skills, p
     ```bash
     git clone <repository_url>
     ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd portfolio-project
-    ```
-
-3. Install dependencies:
+    
+2. Install dependencies:
     ```bash
     npm install
     ```
