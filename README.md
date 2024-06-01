@@ -11,7 +11,6 @@ This is a portfolio project built using React. It showcases various components a
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Live Website](#Live Website)
 
 ## About
 
