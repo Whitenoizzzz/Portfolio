@@ -66,4 +66,8 @@ The portfolio project serves as a platform to showcase the developer's skills, p
 
 A toggle button to switch between light and dark themes.
 
+## Live Website
+
+You can view the live version of this portfolio project [here](https://lovepreetsing.netlify.app/).
+
 ---
