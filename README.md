@@ -63,4 +63,8 @@ A toggle button to switch between light and dark themes.
 
 You can view the live version of this portfolio project [here](https://lovepreetsing.netlify.app/).
 
+## Inspiration
+
+John Smilga - [Udemy](https://www.udemy.com/user/janis-smilga-3/).
+
 ---
